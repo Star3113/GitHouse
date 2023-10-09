@@ -10,7 +10,7 @@ public class passwordManagement {
 		int choice = sc.nextInt();
 		switch (choice) {
 			case 1:
-				passwordEncryption p = new passwordEncryption();// demodemo
+				passwordEncryption p = new passwordEncryption();
 				System.out.println("请输入要加密的数字密码：");
 				System.out.println("加密后的密码：" + p.Encryption(sc.next()));
 				break;
