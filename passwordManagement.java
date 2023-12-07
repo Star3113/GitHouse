@@ -1,7 +1,10 @@
 package 项目管理;
 
 import java.util.*;
-
+//1.加密功能：用户输入一个字符串，系统根据规则对字符串进行加密：
+//  	（1）将每个字符的ASCII码加上它在字符串中的位置(1开始)和偏移值3
+//	（2）将字符串的第一位和最后一位调换顺序
+//  	（3）将字符串反转
 public class passwordManagement {
 
 	public static void main(String[] args) {
